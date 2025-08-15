@@ -1,7 +1,10 @@
 import React from 'react'
 
-const ilgiz = () => {
+export const Ilgiz = () => {
+  
   return (
-    <div>ilgiz</div>
+    <div style={{overflow:'hidden'}}>
+        <h1 style={{letterSpacing:'275px',textAlign:"center",fontFamily:"sans-serif",fontSize:"96px",fontWeight:'600',color:"600",boxShadow:"10px 10px 10px 0 #000"}}>ILGIZ</h1>
+    </div>
   )
 }
